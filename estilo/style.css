@@ -9,9 +9,34 @@ body {
     background-color: rgb(163, 126, 199);
 }
 
+h1 {
+    font-size: 2em;
+    color: rgb(58, 0, 112);
+    text-align: center;
+}
+h2 {
+    font-size: 1.5em;
+    color: rgb(58, 0, 112);
+}
+
+img.lado {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(58, 0, 112);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(26 , 26, 112);
+}
+
 main {
     background-color: white;
-    width: 500px;
+    width: 560px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.76);
